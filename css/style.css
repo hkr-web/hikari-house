@@ -260,7 +260,7 @@ header {
   left: -5%;
   z-index: -10;
   width: 550px;
-  animation: blob-scale 3s ease-in-out infinite alternate;
+  animation: blob-scale 2s ease-in-out infinite alternate;
   transform: scale(0.9);
 }
 .blob3 {
@@ -269,7 +269,7 @@ header {
   right: 0;
   z-index: -10;
   width: 550px;
-  animation: blob-scale 3s ease-in-out infinite alternate;
+  animation: blob-scale 2s ease-in-out infinite alternate;
   transform: scale(1,0.9);
 }
 .blob5, .blob6 {
@@ -283,17 +283,12 @@ header {
 
 /*concept*/
 .concept-wrapper {
-  position: relative;
-  height: 1100px;
-  margin-top: 250px;
-}
-.concept-bg {
-  position: absolute;
-  top: -120px;
-  z-index: -50;
-  width: 100%;
-  height: 1200px;
-  object-fit: cover;
+  margin-top: 80px;
+  padding: 7% 0; 
+  background: url(../img/concept-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .concept-text {
   width: 50%;
@@ -356,22 +351,17 @@ header {
 
 /*flow*/
 .flow-wrapper {
-  position: relative;
-  height: 1565px;
   margin-bottom: 50px;
-}
-.flow-bg {
-  position: absolute;
-  top: -90px;
-  z-index: -50;
-  width: 100vw;
-  height: 1585px;
-  object-fit: cover;
+  padding: 7% 0;
+  background-image: url(../img/flow.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .flow-container {
   width: 895px;
-  height: 1330px;
   margin: 0 auto;
+  padding: 2%;
   background-color: white;
 }
 .flow-text {
@@ -588,36 +578,20 @@ address {
     animation: blob-scale 4s ease-in-out infinite alternate;
     transform: scale(1,0.8);
   }
-  .concept-wrapper {
-    height: 2000px;
-  }
   .concept-container {
     flex-direction: column;
     padding: 20px;
-  }
-  .concept-bg {
-    height: 2060px;
   }
   .concept-text {
     width: 80%;
   }
   .inner {
     width: 280px;
-    margin: 15px auto;
-  }
-  .flow-wrapper {
-    height: 1970px;
+    margin: 0 auto;
+    margin-bottom: 40px;
   }
   .flow-container {
-    width: 700px;
-    height: 1700px;
-  }
-  .flow-bg {
-    height: 1970px;
-  }
-  .flow-text::before {
-    height: 1500px;
-    left: 90px;
+    width: 90%;
   }
   .interview-container {
     flex-direction: column;
@@ -686,16 +660,10 @@ address {
   .hamburger-menu {
     top: 0;
   }
-  .concept-wrapper {
-    margin-top: 160px;
-    height: 2100px;
+  .inner {
+    width: auto;
   }
-  .concept-bg {
-    height: 2200px;
-  }
-  .flow-container {
-    width: 90%;
-  }
+ 
   .flow-text::before {
     display: none;
   }
