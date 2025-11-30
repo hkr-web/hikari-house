@@ -408,7 +408,7 @@ dt::before {
 }
 
 /*interview*/
-.interview-wrapper {
+.green-bg {
   margin: 3% 0;
   padding: 3% 0;
   background-image: url(../img/interview-bg.jpg);
@@ -419,9 +419,9 @@ dt::before {
 .interview-container {
   display: flex;
   position: relative;
-  margin-top: 70px;
+  margin-top: 50px;
 }
-.interview-left, .interview-right {
+.interview-right {
   width: 50%;
   height: 471px;
 }
@@ -472,7 +472,7 @@ dt::before {
 
 /*contact*/
 .contact-wrapper {
-  padding-bottom: 50px;
+  padding: 2% 0;
 }
 .contact-container {
   display: flex;
@@ -509,7 +509,7 @@ dt::before {
 } 
 .mail, .tel {
   width: 16vw;
-  margin-top: 20px;
+  margin: 10px 10px 10px 0;
   transform: scale(0.97);
 	transition: 0.3s ease-in-out;
 }
@@ -517,20 +517,16 @@ dt::before {
   transform: scale(1);
   opacity: 0.8;
 }
-.mail {
-  margin-right: 20px;
-}
 
 /*footer*/
 footer {
-  height: 360px;
+  padding: 2%;
   background-color: #E9ECE6;
   font-weight: 400;
   text-align: center;
 }
 .footer-logo {
   width: 190px;
-  margin-top: 40PX;
 }
 address {
   font-size: 18px;
@@ -591,31 +587,28 @@ address {
   .flow-container {
     width: 90%;
   }
-
   .interview-container {
     flex-direction: column;
-    
+    margin-top: 0;
   }
   .interview-left {
-    width: 100%;
-    height: 15vh;
-   
+    margin-bottom: 80px;
   }
   .interview-right {
     width: 100%;
-    height: 20vh;
+    height: 30vh;
   }
   .interview-left p {
+    width: 80%;
     margin-left: 0;
-    padding-bottom: 20px;
-    margin: 0 auto;
+    margin: 20px auto;
   }
   .interview-photo1, .interview-photo2 {
     display: none;
   }
   .interview-photo3 {
     width: 90vw;
-    height: 100%;
+    height: 30vh;
   }
   .contact-container {
     flex-direction: column;
@@ -627,6 +620,8 @@ address {
   }
   .contact-right {
     margin-left: 0;
+    margin: 0 auto;
+    width: 80%;
   }
   .mail, .tel {
     width: 180px;
@@ -666,17 +661,12 @@ address {
   .inner {
     width: auto;
   }
- 
   .contact-left img {
     width: 90%;
   }
   footer {
     display: flex;
     align-items: center;
-    height: 300px;
-  }
-  .footer-logo {
-    margin-top: 0;
   }
   .footer-left, .footer-right {
     width: 50%;
@@ -686,6 +676,7 @@ address {
     align-items: center;
   }
   .footer-list li {
+    padding-right: 0;
     margin-bottom: 10px;
   }
 }

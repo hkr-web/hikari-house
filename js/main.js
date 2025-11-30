@@ -58,7 +58,7 @@ $(".slide-photos").slick({
       {
         breakpoint: 800,
         settings: {
-          centerPadding: "5px",
+          centerPadding: "2px",
           slidesToShow: 2,
         },
       },
