@@ -55,13 +55,7 @@ $(".slide-photos").slick({
           slidesToShow: 2,
         },
       },
-      {
-        breakpoint: 800,
-        settings: {
-          centerPadding: "5px",
-          slidesToShow: 1,
-        },
-      },
+      
     ],
   });
 });
