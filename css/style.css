@@ -631,11 +631,11 @@ address {
     font-size: 24px;
   }
   h2::before {
-    top: 50px;
+    top: 65px;
     width: 80px;
   }
   .english-title {
-    top: -82px;
+    top: -79px;
     font-size: 48px;
   }
   header {
