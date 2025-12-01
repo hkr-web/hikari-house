@@ -373,7 +373,7 @@ dl {
 dl::before {
   content: "";
   position: absolute;
-  top: 8px;
+  top: 9px;
   left: -70px;
   width: 2px;
   height: 90%;
@@ -628,7 +628,7 @@ address {
 }
 @media(max-width:800px) {
   h2 {
-    font-size: 20px;
+    font-size: 24px;
   }
   h2::before {
     top: 50px;
@@ -660,8 +660,11 @@ address {
   .inner {
     width: auto;
   }
+  .flow-text dt {
+    font-size: 24px;
+  }
   .flow-text {
-    width: 90%;
+    width: 93%;
   }
   dl {
     margin-left: 90px;
@@ -678,6 +681,9 @@ address {
   }
   .interview-right, .interview-photo3 {
     height: 30vh;
+  }
+  .contact-title {
+    font-size: 24px;
   }
   .contact-left img {
     width: 90%;
@@ -699,15 +705,10 @@ address {
   }
   }
   @media(max-width: 500px) {
-  h3 {
-    font-size: 24px;
-  }
+ 
   .english-title {
     top: -69px;
     font-size: 40px;
-  }
-  .flow-text dt {
-    font-size: 24px;
   }
   dl {
     margin-left: 75px;
