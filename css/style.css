@@ -627,7 +627,7 @@ address {
   }
 }
 @media(max-width:800px) {
-  h2 {
+  h2, h3, .flow-text dt, .contact-title {
     font-size: 24px;
   }
   h2::before {
@@ -660,9 +660,6 @@ address {
   .inner {
     width: auto;
   }
-  .flow-text dt {
-    font-size: 24px;
-  }
   .flow-text {
     width: 93%;
   }
@@ -681,9 +678,6 @@ address {
   }
   .interview-right, .interview-photo3 {
     height: 30vh;
-  }
-  .contact-title {
-    font-size: 24px;
   }
   .contact-left img {
     width: 90%;
