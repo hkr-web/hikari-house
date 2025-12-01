@@ -154,7 +154,7 @@ header {
   position: fixed;
   justify-content: space-between;
   align-items: center;
-  z-index: 50;
+  z-index: 100;
   top: 20px;
   width: 100%;
   height: 80px;
@@ -358,23 +358,22 @@ header {
   background-repeat: no-repeat;
 }
 .flow-container {
-  width: 895px;
+  width: 70%;
   margin: 0 auto;
-  padding: 2%;
   background-color: white;
 }
 .flow-text {
-  width: 70%;
-  padding-left: 22%;
-  padding-top: 20px;
+  width: 80%;
+  padding: 3%;
 }
 dl {
   position: relative;
+  margin-left: 25%;
 }
 dl::before {
   content: "";
   position: absolute;
-  top: 10px;
+  top: 8px;
   left: -70px;
   width: 2px;
   height: 90%;
@@ -596,7 +595,7 @@ address {
   }
   .interview-right {
     width: 100%;
-    height: 30vh;
+    height: 400px;
   }
   .interview-left p {
     width: 80%;
@@ -608,7 +607,7 @@ address {
   }
   .interview-photo3 {
     width: 90vw;
-    height: 30vh;
+    height: 400px;
   }
   .contact-container {
     flex-direction: column;
@@ -661,6 +660,25 @@ address {
   .inner {
     width: auto;
   }
+  .flow-text {
+    width: 90%;
+  }
+  dl {
+    margin-left: 90px;
+  }
+  dl::before {
+    left: -50px;
+  }
+  dt::before {
+    left: -90px;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    line-height: 70px;
+  }
+  .interview-right, .interview-photo3 {
+    height: 30vh;
+  }
   .contact-left img {
     width: 90%;
   }
@@ -679,4 +697,29 @@ address {
     padding-right: 0;
     margin-bottom: 10px;
   }
-}
+  }
+  @media(max-width: 500px) {
+  h3 {
+    font-size: 24px;
+  }
+  .english-title {
+    top: -69px;
+    font-size: 40px;
+  }
+  .flow-text dt {
+    font-size: 24px;
+  }
+  dl {
+    margin-left: 75px;
+  }
+  dl::before {
+    left: -45px;
+  }
+  dt::before {
+    left: -80px;
+    width: 65px;
+    height: 65px;
+    font-size: 25px;
+    line-height: 65px;
+   }
+  }
